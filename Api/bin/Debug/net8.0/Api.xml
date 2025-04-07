@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="T:Api.Controllers.ProductoController">
+            <summary>
+            Controlador de Usuario
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.ProductoController.#ctor(MediatR.ISender)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.ProductoController.Create(Application.UseCases.ProductoCreate.ProductoRequest)">
+            <summary>
+            Metodo para la creacion asignacion de la tarea      
+            </summary>
+        </member>
+        <member name="T:Api.Middlewares.ExceptionHandlingMiddleware">
+            <summary>
+            Middleware de comprobacion de los errores  o excepciones
+            </summary>
+        </member>
+        <member name="M:Api.Middlewares.ExceptionHandlingMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Api.Middlewares.ExceptionHandlingMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            Metodo para la generacion de los errores de la aplicacion
+            </summary>
+        </member>
+    </members>
+</doc>
